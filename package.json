@@ -1,0 +1,35 @@
+{
+  "name": "ar-model-viewer",
+  "version": "1.0.0",
+  "description": "AR model viewer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/holofox/ar-model-viewer.git"
+  },
+  "author": "Dennis Christensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/holofox/ar-model-viewer/issues"
+  },
+  "homepage": "https://gitlab.com/holofox/ar-model-viewer#readme",
+  "dependencies": {
+    "process": "^0.11.10",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
