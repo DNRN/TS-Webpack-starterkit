@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --open --config webpack.dev.js",
+    "dev:host": "webpack serve --env=MODE='host' --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
