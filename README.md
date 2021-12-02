@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AR Model Viewer
 
 Testing an playing with ios and androids native AR model viewers: Quick view and Scene View
@@ -91,3 +92,6 @@ For open source projects, say how it is licensed.
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
 
+=======
+# TS-Webpack-starterkit
+>>>>>>> 8012cabfd11635a88c38206b84b7b730460280ab
