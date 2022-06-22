@@ -12,7 +12,10 @@ It's possible to run the development server in diffrerent modes. Either a normal
     npm run dev
     npm run dev:host
 
-# Build
+## Build
 To build the bundle:
 
     npm run build
+
+## Environment
+It's possible to setup diffrent environment variables and use them 
