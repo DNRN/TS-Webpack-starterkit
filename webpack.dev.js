@@ -13,7 +13,7 @@ module.exports = env => {
             compress: true,
             port: 8080,
             ...(env.MODE === 'host' && {host: '0.0.0.0'}),
-            https: env.MODE === 'host',
+            // https: env.MODE === 'host',
         },
         entry: {
             index: './src/index.ts',

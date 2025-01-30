@@ -10,9 +10,11 @@ const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 
 /* Configure Copy */
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const CopyWebpackPluginConfig = new CopyWebpackPlugin([
-    { from: 'src/assets', to: '' }
-]);
+const CopyWebpackPluginConfig = new CopyWebpackPlugin({
+    patterns: [
+        { from: "src/assets", to: "dest" },
+      ],
+});
 
 /* Configure ProgressBar */
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
